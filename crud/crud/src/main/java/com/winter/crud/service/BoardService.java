@@ -45,8 +45,7 @@ public class BoardService {
                 board.getAuthor(),
                 board.getContent(),
                 board.getCreatedAt(),
-                board.getViewCnt(),
-                board.getRecommendCnt()
+                board.getViewCnt()
         );
     }
 
@@ -77,8 +76,7 @@ public class BoardService {
                 board.get().getAuthor(),
                 board.get().getContent(),
                 board.get().getCreatedAt(),
-                board.get().getViewCnt(),
-                board.get().getRecommendCnt()
+                board.get().getViewCnt()
         );
     }
 
@@ -98,8 +96,7 @@ public class BoardService {
                 board.get().getAuthor(),
                 board.get().getContent(),
                 board.get().getCreatedAt(),
-                board.get().getViewCnt(),
-                board.get().getRecommendCnt()
+                board.get().getViewCnt()
         );
     }
 
@@ -118,8 +115,7 @@ public class BoardService {
                 board.get().getAuthor(),
                 board.get().getContent(),
                 board.get().getCreatedAt(),
-                board.get().getViewCnt(),
-                board.get().getRecommendCnt()
+                board.get().getViewCnt()
         );
     }
 }

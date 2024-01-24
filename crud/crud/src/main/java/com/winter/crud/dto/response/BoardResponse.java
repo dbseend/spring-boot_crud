@@ -24,9 +24,7 @@ public class BoardResponse {
     private LocalDateTime createdAt;
 
     private Integer viewCnt;
-
-    private Integer recommendCnt;
-
+    
     public BoardResponse(Board board) {
         this.id = board.getId();
         this.title = board.getTitle();
@@ -34,6 +32,5 @@ public class BoardResponse {
         this.content = board.getContent();
         this.createdAt = board.getCreatedAt();
         this.viewCnt = board.getViewCnt();
-        this.recommendCnt = board.getRecommendCnt();
     }
 }

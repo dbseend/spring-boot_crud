@@ -33,8 +33,6 @@ public class Board {
 
     private Integer viewCnt;
 
-    private Integer recommendCnt;
-
     @Builder
     public Board(String title, String author, String content, LocalDateTime createdAt, Integer viewCnt, Integer recommendCnt) {
         this.title = title;
@@ -42,7 +40,6 @@ public class Board {
         this.content = content;
         this.createdAt = createdAt;
         this.viewCnt = viewCnt;
-        this.recommendCnt = recommendCnt;
     }
 
     public void update(String title, String content) {
@@ -52,9 +49,5 @@ public class Board {
 
     public void updateViewCnt() {
         this.viewCnt++;
-    }
-
-    public void updateRecommendCnt() {
-        this.recommendCnt++;
     }
 }
